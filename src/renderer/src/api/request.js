@@ -189,7 +189,7 @@ const handleResponse = (res, isSuccess = true) => {
     if (res.code === 'ERR_NETWORK') {
       errorMsg.setErrorMsg({
         msg: '網路連線異常，請洽客服人員，或稍後再試',
-        backToHome:false,
+        backToHome: true,
       })
     } else if (!res.request) {
       let msg = isServer.value ? '，請洽客服人員，或稍後再試' : '，補貨功能暫停'
