@@ -1,0 +1,6 @@
+{
+  "cmdCheckDeliveryBin": "64",
+  "cmdOpenDeliveryBin": "65",
+  "cmdliftsBin": "24",
+  "cmdExportProductBin": "28"
+}

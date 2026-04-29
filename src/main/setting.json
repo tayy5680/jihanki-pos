@@ -1,0 +1,17 @@
+{
+    "machine":"com3",
+    "scan":"com4",
+    "0":{"Result":true,"Msg":"出貨成功"},
+    "1":{"Result":false,"Msg":"無馬達動作，馬達通路 OPEN ( 未動作過 )"},
+    "2":{"Result":false,"Msg":"無馬達動作，馬達通路 OPEN ( 上次動作過 )"},
+    "3":{"Result":false,"Msg":"位置線斷開或者馬達卡死不轉，在缺口位置"},
+    "4":{"Result":false,"Msg":"位置線常閉，轉 7 秒多於 1 圈，或馬達卡死不轉，不在缺口位置"},
+    "5": {"Result":false,"Msg":"轉小於 2 秒，轉小於 1 圈。在缺口位置"},
+    "6":{"Result":false,"Msg":"轉大於 5 秒，轉多於 1 圈。在缺口位置"},
+    "7":{"Result":false,"Msg":"轉 7 秒，轉多於 2 圈。不在缺口位置"},
+    "8": {"Result":false,"Msg":"履帶貨道未檢測到貨物（可能無貨 ）"},
+    "9":{"Result":false,"Msg":"系統忙碌"},
+    "10":{"Result":false,"Msg":"升降機沒有到達指定位置 ( 無貨 )"},
+    "11":{"Result":false,"Msg":"只支援履帶貨道回退"}
+
+}
