@@ -29,16 +29,16 @@ export function createWindow() {
     height: 670,
 
     show: false,
-    fullscreen: false,
-    frame: true,
-    autoHideMenuBar: false,
+    fullscreen: true,
+    frame: false,
+    autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
       contextIsolation: true,
       nodeIntegration: false,
-    },s
+    },
   })
 
   if (configFile.debug_mode) mainWindow.webContents.openDevTools()
