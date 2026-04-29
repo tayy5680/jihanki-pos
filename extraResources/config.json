@@ -1,0 +1,24 @@
+{
+  "credit": {
+    "initialDays": 30
+  },
+  "machine_id":"1",
+  "hash_key": "b781cfcca1b54a6086a87237c329cad6",
+  "credit_devicesn":"275231100106",
+  "shopid":"H00000000001271",
+  "payment":{
+    "input":"C:/uic/payment/input.txt",
+    "output":"C:/uic/payment/output.txt",
+    "commend":"cd C:\\uic\\payment && paymentapp.exe -f input.txt -o output.txt"
+  },
+  "easycard":{
+    "input":"C:/uic/easycard/TXN_Input.log",
+    "output":"C:/uic/easycard/TXN_Output.log",
+    "commend":"cd C:\\uic\\easycard && POS_ticket_Reader.exe"
+  },
+  "account":"admin",
+  "password":"U2FsdGVkX19Fq2IfQW+bwmMgOnJMD22KtYG3voDjAdM=",
+  "apiCompanyId":1,
+  "apiKey":"U2FsdGVkX19Tjbid1cLe/HhpgwNanN1zNrCmaSwB84o=",
+  "debug_mode": false
+}
